@@ -1,8 +1,10 @@
 package studio9;
 
 import java.util.LinkedList;
+import java.util.List;
 
 public class Polynomial {
+	
 	
 	private LinkedList<Double> list;
 
@@ -11,16 +13,25 @@ public class Polynomial {
 	 */
 	public Polynomial() {
 		//FIXME
-	}
+		
+		List<Double> p = new LinkedList<>();
+		
+		System.out.println("List: " + p);
+		
 
-	
+	}
 	/**
 	 * 
 	 * @param coeff
 	 * @return polynomial with added term
 	 */
 	public void addTerm(double coeff) {
-		//FIXME
+
+		if (coeff !=0) {
+			
+		
+				
+		
 	}
 	
 	/*
@@ -29,7 +40,7 @@ public class Polynomial {
 	 * Cx^N + Cx^N-1 + ... + Cx + C
 	 */
 	public String toString() {
-		return ""; //FIXME
+		return= "";
 	}
 	
 	/**
